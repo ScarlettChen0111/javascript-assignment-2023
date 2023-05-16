@@ -1,0 +1,128 @@
+/* Main SCSS File */
+
+// Base setup
+@import "settings";
+
+// Components
+@import "general";
+
+
+
+body {
+    font-family: $font-family;
+    background-color:$light-color ;
+    
+
+    button {
+      background-color:$light-color;
+      padding: 3px;
+      width: 30%;
+      position: relative;
+      margin-left:auto;
+      margin-right:auto;
+      margin-top:100px;
+      display:block;
+      color: $dark-color;
+      font-family:$font-family;
+      border:none;
+      font-size:$font-size;
+     /* box-shadow:0px 0px 2px 1px #ffdff7;
+      border:1px double #2FF3E0;
+      border-width: 3px ;*/
+    }
+        input{
+          text-align:center; 
+          position: relative;
+          margin-left:auto;
+          margin-right: auto;
+          margin-bottom:20px;
+          display:flex;
+          border-width: 2cap;
+          border-color: $medium-color;
+          background-color: #ece6dd;
+          width:400px;
+          height:50px;
+      }
+  
+        label{
+          text-align:center; 
+          align-items: center;
+          position: relative;
+          display:block;
+          margin-left: auto;
+          margin-right: auto;
+          color:$dark-color;
+          font-size: large;
+          font-family:$font-family;
+      }
+  
+}
+
+
+h1 {
+    color: $dark-color;
+    text-align: center;
+}
+
+header {
+
+  background-color:$medium-color;
+  margin-bottom:$margin;
+  padding: 1px;
+  color:$light-color;
+  text-align: center;
+  font-size:x-large;
+  font-weight:normal;
+  font-family: avenir black, sans-serif;
+  border-bottom-width: 2px;
+  border-bottom-color:$dark-color;
+  border-bottom-style:inset;
+  
+
+  button {
+    background-color:$light-color;
+    padding: 1px;
+    width: 50%;
+    position:relative;
+    margin-left: auto;
+    margin-top:3px;
+    margin-bottom:3px;
+    display: block;
+    color: $dark-color;
+    font-family:$font-family;
+    font-size:30px;
+    border-width: 5px;
+    border-color:$dark-color;
+    border-style:double;
+    
+   /* box-shadow:0px 0px 2px 1px #ffdff7;
+    border:1px double #2FF3E0;
+    border-width: 3px ;*/
+  }
+
+
+}
+
+section{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+
+    p {
+    display:block;
+    position:relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    max-height: 500px;
+    font-family: $font-family;
+    text-align: center;
+    font-size:0.8rem;
+    color: $bright-color;
+    border: none;
+    top: 100px;
+  }
+
+    
+}
