@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+
+		<title>The Parsons Web Project</title>
+		<meta name="description" content="Spring 2023 Class">
+		<meta name="author" content="Parsons Faculty">
+		<link rel="stylesheet" href="css/styles.css">
+	</head>
+	<header class = "headerSmall" id = "headerfetchAll"></header>
+	<body>
+		<h2>All Available Currency Rates</h2>
+		<br>
+		<section>
+		<form name="currencyAPI" action="#" id="currency">
+			<label for="apiKey" class="alignCenter" ><b>Please enter your API key:</b></label>
+			<input type="text" name="apiKey" id="api_Key"  class="alignCenter" >
+	
+			<label for="base" class="alignCenter"><b>Convert From<br>(Base currency symbol (physical or digital)):</b></label>
+			<input type="text" name="baseCurrency" id="base_Currency_fetchAll" class="alignCenter"placeholder = "pattern: [A-Z0-9]{3-6}">
+			<br>
+			<br>
+
+			<button type = "button" id="fetchALL" class="buttonSmall" >Fetch All</button>
+		</section>
+			
+			<section class="sectionRight" >
+			<p id = "Output_fetchAll">   
+				<p id = "result_fetchAll"></p>
+			</p>
+		</section>
+
+		</form>
+		<script src="index.html"></script>
+        <script src="js/fetchScripts.js"></script>
+
+	</body>
+	<p class = "footer"style = "right:0; margin-right = 20px">Supported by fastFOREX.io</p>
+	
+
+	<!--Back to Homepage-->
+	<form>
+	<button class = "footer" style = "left: 0;text-align:left; color: #ff40b0; width:fit-content;margin-left:20px; border:none; box-shadow:0px 0px 0px 0px #ffe5f4;"formaction ="index.html" >🏠HOME🏠</button>
+	</form>
+
+</html>

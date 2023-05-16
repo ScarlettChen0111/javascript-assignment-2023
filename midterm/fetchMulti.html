@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+
+		<title>The Parsons Web Project</title>
+		<meta name="description" content="Spring 2023 Class">
+		<meta name="author" content="Parsons Faculty">
+		<link rel="stylesheet" href="css/styles.css">
+	</head>
+	<header class = "headerSmall" id = "headerFetchMulti"></header>
+	<body>
+		<h2>Check Multiple Currency Rates At Once</h2>
+		<br>
+		<section>
+		<form name="currencyAPI" action="#" id="currency">
+			<label for="apiKey" class="alignCenter" ><b>Please enter your API key:</b></label>
+			<input type="text" name="apiKey" id="api_Key"  class="alignCenter" >
+	
+			<label for="base" class="alignCenter"><b>Convert From<br>(Base currency: 3-letter symbol. Defaults to USD):</b></label>
+			<input type="text" name="baseCurrency" id="base_Currency_fetchMulti" class="alignCenter"placeholder = "3-uppercase-letter symbol">
+	
+			<label for="quote" class="alignCenter"><b>Convert To<br>(Target currencies: 3-letter symbols.<br>Defaults to all currencies if omitted):</b></label>
+			<input type="text" name="quoteCurrency" id="quote_Currency_fetchMulti" class="alignCenter"placeholder = "Comma separated. Uppercase only">
+			<br>
+			<br>
+
+			<button type = "button" id="fetchMultiSubmission" class="buttonSmall" >Submit</button>
+
+		</section>
+		<section class="sectionRight">
+			<p id = "fetchMultiOutput"></p>
+		</section>
+
+		</form>
+
+		<script src="js/fetchMulti.js"></script>
+		<script src="index.html"></script>
+
+	</body>
+	<p class = "footer"style = "right:0; margin-right = 20px">Supported by fastFOREX.io</p>
+	
+
+	<!--Back to Homepage-->
+	<form>
+	<button class = "footer" style = "left: 0;text-align:left; color: #ff40b0; width:fit-content;margin-left:20px; border:none; box-shadow:0px 0px 0px 0px #ffe5f4;"formaction ="index.html" >🏠HOME🏠</button>
+	</form>
+
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+
+		<title>The Parsons Web Project</title>
+		<meta name="description" content="Spring 2023 Class">
+		<meta name="author" content="Parsons Faculty">
+		<link rel="stylesheet" href="css/styles.css">
+	</head>
+
+	<header> CURRENCY CONVERSION </header>
+
+	<body>
+
+			<!-- this is a test h1 block -->
+			<!--h1 id="Currency Conversion"-->
+			<!--/h1-->
+	<br>		
+	<section>
+      <!-- this is a test form block -->
+      <h2 style="font-size:xx-large">↓ 💵 💴 💶 💷 ↓</h2>
+      <form name="currencyAPI" action="#" id="currency">
+       <br><br>
+		<button name="historical" id="historical" class="center" formaction = "historical.html">Exchange Rates For A Date In The Past</button>
+		<br>
+		<button name="timeSeries" id="time-series" class="center" formaction = "timeSeries.html">Time-series Dataset Of Currency Rates (Displays Daily Rates)</button>
+		<br>
+		<button name="fetchAll" id="fetch-all" class="center" formaction = "fetch-all.html">All Available Currency Rates</button>
+		<br>
+		<button name="fetchMulti" id="fetch-multi" class="center" formaction = "fetchMulti.html">Check Multiple Currency Rates At Once</button>
+		<br>
+		<button name="convert" id="convert" class="center" formaction = "convert.html">Convert An Amount Of One Currency Into Another Currency</button>
+		<br>
+		<button name="currencies" id="currencies" class="buttonCurrencyRef" formaction = "allCurrencies.html">LIST OF SUPPORTED CURRENCIES</button>
+		<br>
+		<br>
+        <br>
+
+		<!--button  class = "center" id="getCurrency" onClick = "convertCheck()" >Submit Your Service Request</button-->
+	
+	</form>
+    </section>
+	<section class = "sectionRight" style="backdrop-filter:hue-rotate(0turn);
+	box-shadow:0px 0px 0px 0px #ffdff7;">
+		<p >
+			<br> <b>Supported by fastFOREX.io:</b>
+			<br>
+			<br><a href = "https://www.fastforex.io/"> https://www.fastforex.io/</a></p>
+			<p style = "text-align: center; margin:20px">
+				
+			<br>
+			<b>Instructions:</b>
+			<br>
+			<br>1. Go to <a href = "https://www.fastforex.io/">https://www.fastforex.io/</a> and sign up for API key.
+			<br>2. You have a 7-day free trial~.
+			<br>3. Notice: <b>DO NOT</b> post your API key on public platforms such as Github.
+			<br>4. Click buttons on the left for currency conversion.
+			</p>
+			
+
+	</section>
+		<!-- script always before closing body tag -->
+		<script src="js/scripts.js"></script>
+		<script src="convert.html"></script>
+		<script src="fetch-all.html"></script>
+		<script src="js/fetchScripts.js"></script>
+		<script src="js/timeSeries.js"></script>
+		<script src="js/historical.js"></script>
+		<script src="js/fetchMulti.js"></script>
+		<script src="allCurrencies.html"></script>
+	</body>
+
+</html>

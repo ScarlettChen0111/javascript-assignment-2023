@@ -1,0 +1,321 @@
+body {
+  font-family: helvetica, sans-serif;
+  margin: 0 auto;
+  /*background-image: linear-gradient(#2FF3E0 ,#dafffb,#ebfffd ,#e2fbf3 ,#e5fffc ,#dbfffe ,#2FF3E0);*/
+  background-image: linear-gradient(#effffd,#ffeff8,#effffd)
+}
+
+#title {
+  color:  brown;
+}
+
+header {
+  background-image:linear-gradient(#ffbde2,#bffff8,#ffbde2);;
+  padding: 10px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: #ff81cb;
+  font-size:x-large;
+  font-weight:bold;
+  font-family: avenir black, sans-serif;
+  -webkit-text-stroke:1px #FBE5C8;
+  /*border-bottom-width: 5px;
+  border-bottom-color: #F51720;
+  border-bottom-style:dotted;*/
+}
+.headerSmall {
+  background-image:linear-gradient(#ffbde2,#bffff8,#ffbde2);;
+  padding: 10px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: #ff81cb;
+  font-size:medium;
+  font-family: avenir black, sans-serif;
+  -webkit-text-stroke:0.2px #FBE5C8;
+  /*border-bottom-width: 5px;
+  border-bottom-color: #F51720;
+  border-bottom-style:dotted;*/
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    width:100%;
+    margin-top: 50px;
+    background-image:linear-gradient(#ffbde2,#bffff8,#ffbde2);
+    padding: 10px;
+    text-align: right;
+    color: #00d9f1;
+    font-size:medium;
+    font-family: avenir black, sans-serif;
+    -webkit-text-stroke:0.2px #F8D210;
+ 
+}
+
+
+section {
+  width: 40%;
+  max-width: 500px;
+  max-height:fit-content;
+  float: left;
+  margin-left:190px;
+  margin-right:10px;
+  margin-top:30px;
+  margin-bottom:30px;
+  /*border: 5px double #FA26A0;
+  border-width:7px;*/
+  /*-webkit-backdrop-filter: sepia(30%);
+  backdrop-filter: sepia(30%);*/
+
+  /*backdrop-filter:hue-rotate(0.5turn);
+  box-shadow:0px 0px 15px 15px #ffdff7;*/
+  padding:  10px;
+  display:block;
+  font-family: helvetica, sans-serif;
+
+}
+.sectionRight {
+  width: 40%;
+  max-width: 500px;
+  max-height:fit-content;
+  float: right;
+  margin-right:100px;
+  margin-left:10px;
+  margin-top:30px;
+  margin-bottom:30px;
+  /*border: 5px double #FA26A0;
+  border-width:7px;*/
+  /*-webkit-backdrop-filter: sepia(30%);
+  backdrop-filter: sepia(30%);*/
+  
+  /*backdrop-filter:hue-rotate(0.5turn);*/
+  /*box-shadow:0px 0px 5px 5px #ffdff7;*/
+  padding:  10px;
+  display:block;
+  font-family: helvetica, sans-serif;
+}
+
+.sectionMiddle {
+  width: 60%;
+  max-width: 500px;
+  max-height:fit-content;
+  margin: auto;
+  float:inherit;
+  margin-top:20px;
+  margin-bottom:20px;
+  /*border: 5px double #FA26A0;
+  border-width:7px;*/
+  /*-webkit-backdrop-filter: sepia(30%);
+  backdrop-filter: sepia(30%);*/
+  backdrop-filter:hue-rotate(0turn);
+  box-shadow:0px 0px 0px 0px #ffdff7;
+  padding:  0px;
+  display:block;
+  font-family: helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #FA26A0;
+  font-size: xx-large;
+  font-family: avenir black, sans-serif;
+  text-shadow: 1px 1px 2px #2FF3E0;
+
+
+}
+ul {
+  display: flex;
+  align-items: stretch; /* Default */
+  width: 100%;
+  list-style: none;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0;
+}
+ul li {
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  align-items: center;
+  flex: 1 1 auto;
+  text-align:  center;
+}
+body ul li span:first-child {
+  font-family: arial;
+  font-size: 14px;
+  color: #F3BC50;
+  text-align: center;
+}
+body ul li img {
+  margin: 5px;
+  border-radius: 3px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  display: block;
+}
+
+p strong {
+  color: red;
+}
+
+.highlight {
+  color: green;
+  background-color: #505050;
+}
+
+span {
+  font-size:  21px;
+}
+.heading {
+  font-size: 30px;
+}
+
+.third_table {
+  border:  10px solid purple;
+}
+
+h2 {
+  text-align: center;
+  /*-webkit-text-stroke: 2px #1f5182;*/
+  color: #00cad1;
+  text-shadow:0px 0px 1px #FBE5C8;
+  font-family: avenir black, sans-serif;
+  font-size:x-large;
+  font-weight:bold;
+
+}
+form {
+  margin: 0 auto;
+  text-align:center;
+}
+form input[type=text], form input[type=password], form input[type=number] {
+  width: 50%;
+  padding: 10px;
+  margin: 0 auto;
+  background-color: #effdff;
+  border-color: #00d9f1;
+
+
+}
+button {
+  background-color:rgb(255, 255, 255,0.3);
+  padding: 15px;
+  width: 80%;
+  display: block;
+  margin-top: 20px;
+  color: #00dce4;
+  font-family:helvetica, sans-serif;
+  border:none;
+  font-size:medium;
+  box-shadow:0px 0px 2px 1px #ffdff7;
+  /*border:1px double #2FF3E0;
+  border-width: 3px ;*/
+}
+
+.buttonSmall{
+  background-color:rgb(255, 255, 255,0.3);
+  padding: 10px;
+  width: 40%;
+  display: block;
+  margin-top: 20px;
+  color: #fa61ba;
+  font-weight: bold;
+  font-family: helvetica, sans-serif;
+  border:none;
+  font-size:medium;
+  box-shadow:0px 0px 5px 3px #ffe5f4;
+  /*border:1px double #2FF3E0;
+  border-width: 3px ;*/
+  margin: 0 auto;
+
+}
+.buttonCurrencyRef{
+  background-color:rgb(255, 255, 255,0.3);
+  padding: 15px;
+  width: 80%;
+  display: block;
+  margin-top: 20px;
+  color: #00dce4;
+  font-weight: bold;
+  font-family:helvetica, sans-serif;
+  border:none;
+  font-size:large;
+  box-shadow:0px 0px 2px 1px #ffdff7;
+  margin: 0 auto;
+  /*border:1px double #2FF3E0;
+  border-width: 3px ;*/
+}
+button:hover {
+  background-color: #ffe5f4;
+  color: #ff7fca;
+}
+form label {
+  padding: 5px 0;
+  display: block;
+  margin-top: 15px;
+  color:#00c5cc;
+  font-family:helvetica, sans-serif;
+
+}
+form .error {
+  font-size: 80%;
+  color: darkred;
+}
+#Output {
+    border: 1px solid #ccc;
+    word-wrap: break-word;
+    padding: 5px;
+    margin: 20px 0;
+    background: white;
+}
+.center {
+    margin: 0 auto;
+}
+.alignCenter{
+  text-align:center;
+  align-items: center;
+}
+
+p {
+  font-family: helvetica, sans-serif;
+  text-align: center;
+  font-size:large;
+  margin: 0 auto;
+  color:#00b4cc;
+  border: none;
+}
+p success{
+  font-family: helvetica, sans-serif;
+  color:#ff91c4;
+  font-size:x-large;
+  font-weight:bold;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
+p fail{
+  font-family: helvetica, sans-serif;
+  color:#ff4a50;
+  font-size:large;
+  
+}
+
+p failExpression{
+  font-family: helvetica, sans-serif;
+  color:#748faa;
+  font-size: x-large;
+  font-weight:bold;
+  margin-top:20px;
+  margin-bottom:20px;
+
+
+}
+
+p failStatus{
+  font-family: helvetica, sans-serif;
+  color:#748faa;
+
+}
+
+a {
+  color: #00f2ff;
+}
